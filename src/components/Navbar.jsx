@@ -1,8 +1,19 @@
 import React from 'react'
+import { navLinks } from '../constants'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <nav>
+      <div>
+        <img src="" alt="" />
+        <p></p>
+        <ul>
+          {navLinks.map(item)
+
+          }
+        </ul>
+      </div>
+    </nav>
   )
 }
 
